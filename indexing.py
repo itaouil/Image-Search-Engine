@@ -34,6 +34,6 @@ for imagePath in glob.glob(args["dataset"] + "/*.jpeg"):
     index[k] = features
 
 # Serialise our index dictionary
-f = open(args["index"])
+f = open(args["index"], "wb")
 f.write(cPickle.dumps(index))
 f.close()
