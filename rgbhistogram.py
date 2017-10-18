@@ -9,8 +9,8 @@ class RGBHistogram:
         In the constructor we initialise
         the number of bins used per each
         channel. Hence, the bins parame-
-        ter given is list containing 3 i-
-        ntegers.
+        ter given is a list containing 3
+        integers.
     """
     def __init__(self, bins):
         self.bins = bins
