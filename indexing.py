@@ -21,11 +21,12 @@ index = {}
 desc = RGBHistogram([8, 8, 8])
 
 # Loop over image dataset and compute 3D histogram
-for imagePath in glob.glob(args["dataset"] + "/*.png"):
+for imagePath in glob.glob(args["dataset"] + "/*.jpeg"):
     # Get image filename
     k = imagePath[imagePath.rfind("/") + 1:]
 
-    # Load image and get its description
+    # Load image and compute its
+    # features vector
     image    = cv2.imread(imagePath)
     features = desc.describe(image)
 

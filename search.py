@@ -30,7 +30,7 @@ for (query, queryFeatures) in index.items():
     print "query: %s" % (query)
 
     # initialize the two montages to display our results --
-    # we have a total of 25 images in the index, but let's only
+    # we have a total of 12 images in the index, but let's only
     # display the top 10 results; 5 images per montage, with
     # images that are 400x166 pixels
     montageA = np.zeros((166 * 5, 400, 3), dtype = "uint8")
