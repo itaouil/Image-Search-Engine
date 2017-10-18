@@ -1,2 +1,5 @@
-# Image-Search-Engine
-Given an image query, it searches similar images in our dataset.
+# **Image-Search-Engine**
+
+The following project has been inspired by Adrian Rosebrock's series on Computer Vision.
+
+Alright, the aim of the project is to create a **Search Engine**, such that
